@@ -1,2 +1,8 @@
 # EEG-Signal-Filtering-and-Real-Time-Visualization
-MATLAB project for EEG signal preprocessing and real-time visualization. Raw EEG data from CSV files is filtered using low-pass, high-pass, and notch filters to remove noise, DC drift, and power-line interference. A sliding window approach simulates live EEG monitoring, producing cleaner signals and smooth real-time plots.
+This project focuses on preprocessing EEG signals using MATLAB to clean and visualize 
+brainwave data collected during mental arithmetic tasks. The process includes: 
+1. Loading EEG signals from CSV files. 
+2. Applying digital filters (low-pass, high-pass, notch) to remove noise and artifacts. 
+3. Simulating real-time EEG data visualization using sliding window plots. 
+The outcome is a cleaner EEG signal, free of high-frequency noise, DC drifts, and power line 
+interference, along with a smooth real-time simulation mimicking a live system. 
